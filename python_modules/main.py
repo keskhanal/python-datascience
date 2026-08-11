@@ -1,15 +1,13 @@
-# from calculator.calculator import Calculator
-# from calculator.message import greeting
-from calculator import Calculator, greeting
+# from student import student
+from student.student import Student
 
 if __name__ == "__main__":
-    calc = Calculator()
-    a = 10
-    b = 5
+    student1 = Student("Alice", 20, 85)
+    student1.display_info()
+    print(f"Grade: {student1.calculate_grade()}")
+    print(f"Has Passed: {student1.has_passed()}")
 
-    print(greeting("Alice"))
-
-    print(f"Addition: {a} + {b} = {calc.add(a, b)}")
-    print(f"Subtraction: {a} - {b} = {calc.subtract(a, b)}")
-    print(f"Multiplication: {a} * {b} = {calc.multiply(a, b)}")
-    print(f"Division: {a} / {b} = {calc.divide(a, b)}")
+    student2 = Student("Bob", 22, 55)
+    student2.display_info()
+    print(f"Grade: {student2.calculate_grade()}")
+    print(f"Has Passed: {student2.has_passed()}")
