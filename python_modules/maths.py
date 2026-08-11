@@ -1,4 +1,6 @@
-def sum_two_numbers(a, b):
+def sum_two_numbers(a:float, b:float) -> float:
+    """add two numbers and return the result
+    """
     return a + b
 
 def multiply_two_numbers(a, b):
