@@ -32,6 +32,16 @@ dist/
 # Logs
 *.log
 
+# Files created by running the lesson examples
+lessons/**/diary.txt
+lessons/**/fruits.txt
+lessons/**/sample.txt
+lessons/**/notes.txt
+lessons/**/demo.txt
+lessons/**/copy.txt
+lessons/**/marks.csv
+lessons/**/students_demo.json
+
 # Temporary files
 *.tmp
 *.swp

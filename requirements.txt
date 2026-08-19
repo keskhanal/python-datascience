@@ -1,4 +1,11 @@
+# Notebook environment
+jupyterlab
+notebook
+ipykernel
+
+# Data science stack (used from lesson 23 onward - see ROADMAP.md)
 numpy==2.5.2
 pandas==3.0.5
+
+# Used by the API lesson (lesson 17 - see ROADMAP.md)
 requests
-fastapi
