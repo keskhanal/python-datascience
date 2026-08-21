@@ -46,3 +46,6 @@ lessons/**/students_demo.json
 *.tmp
 *.swp
 *.swo
+
+# large files
+/pandas/dataset
